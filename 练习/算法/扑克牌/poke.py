@@ -57,4 +57,4 @@ def is_straight_flush(cards):
     return is_consecutive(values) or values == [2, 3, 4, 5, 14]  # 处理 A-2-3-4-5
 
 print(is_straight_flush(['♠10', '♠J', '♠Q', '♠K', '♠A']))
-#test1
+#test1  new
