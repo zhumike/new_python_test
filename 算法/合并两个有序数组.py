@@ -13,7 +13,13 @@ class Solution(object):
         nums1.sort()
         return nums1
 
-
+if __name__ == '__main__':
+    demo = Solution()
+    num1=[3,4,5]
+    k1 =3
+    num2=[1,9,22,34]
+    k2 = 4
+    print(demo.merge(num1,k1,num2,k2))
 
 """从后往前比较排序
 将最大的值依次放到最后"""
